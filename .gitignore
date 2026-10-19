@@ -1,0 +1,17 @@
+# Local database credentials (never commit)
+/config/db.php
+.env
+.env.*
+!.env.example
+
+# Editor/OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencies / temporary files
+/vendor/
+/node_modules/
+*.log
+*.zip
