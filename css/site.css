@@ -137,3 +137,23 @@ footer {
         padding: 55px 6%;
     }
 }
+
+/* Game titles come from MySQL, not hardcoded HTML. */
+.game-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 22px;
+}
+.game-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 9px 0;
+    border-bottom: 1px solid #303647;
+    color: var(--text);
+    font-size: 14px;
+}
+.game-list small {
+    color: var(--muted);
+    white-space: nowrap;
+}
